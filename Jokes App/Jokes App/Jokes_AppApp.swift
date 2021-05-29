@@ -24,7 +24,7 @@ struct Jokes_AppApp: App {
   
   var body: some Scene {
     WindowGroup {
-      ContentView()
+      SignUpViewController()
     }
   }
 }

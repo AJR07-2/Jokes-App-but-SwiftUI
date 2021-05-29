@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3A16BE9B2658975400C687DB /* Jokes_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16BE9A2658975400C687DB /* Jokes_AppApp.swift */; };
-		3A16BE9D2658975400C687DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A16BE9C2658975400C687DB /* ContentView.swift */; };
 		3A16BE9F2658975800C687DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16BE9E2658975800C687DB /* Assets.xcassets */; };
 		3A16BEA22658975800C687DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A16BEA12658975800C687DB /* Preview Assets.xcassets */; };
 		3A16BEAA265897DC00C687DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A16BEA9265897DC00C687DB /* GoogleService-Info.plist */; };
 		3A170B972658A186009115C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A170B962658A186009115C4 /* User.swift */; };
+		3A4DDC3A2661D15E00DC5177 /* Post.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A4DDC2F2661D15E00DC5177 /* Post.xib */; };
+		3A4DDC3B2661D15E00DC5177 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC302661D15E00DC5177 /* Post.swift */; };
+		3A4DDC3C2661D15E00DC5177 /* postDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC312661D15E00DC5177 /* postDetails.swift */; };
+		3A4DDC3D2661D15E00DC5177 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC332661D15E00DC5177 /* SignUpViewController.swift */; };
+		3A4DDC3E2661D15E00DC5177 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC342661D15E00DC5177 /* ViewController.swift */; };
+		3A4DDC3F2661D15E00DC5177 /* APIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC352661D15E00DC5177 /* APIViewController.swift */; };
+		3A4DDC402661D15E00DC5177 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC362661D15E00DC5177 /* PostViewController.swift */; };
+		3A4DDC412661D15E00DC5177 /* FavouritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC372661D15E00DC5177 /* FavouritesViewController.swift */; };
+		3A4DDC422661D15E00DC5177 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC382661D15E00DC5177 /* LoginViewController.swift */; };
+		3A4DDC432661D15E00DC5177 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DDC392661D15E00DC5177 /* SettingsViewController.swift */; };
 		D2F76F456889A2E1C6264B5F /* libPods-Jokes App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 246BA63992A7B5969FF5EBEC /* libPods-Jokes App.a */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +30,21 @@
 		27C19A8D0D46DD0E289BF5B8 /* Pods-Jokes App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes App.debug.xcconfig"; path = "Target Support Files/Pods-Jokes App/Pods-Jokes App.debug.xcconfig"; sourceTree = "<group>"; };
 		3A16BE972658975400C687DB /* Jokes App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jokes App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A16BE9A2658975400C687DB /* Jokes_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes_AppApp.swift; sourceTree = "<group>"; };
-		3A16BE9C2658975400C687DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		3A16BE9E2658975800C687DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A16BEA12658975800C687DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A16BEA32658975800C687DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A16BEA9265897DC00C687DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3A170B962658A186009115C4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A4DDC2F2661D15E00DC5177 /* Post.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Post.xib; sourceTree = "<group>"; };
+		3A4DDC302661D15E00DC5177 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3A4DDC312661D15E00DC5177 /* postDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postDetails.swift; sourceTree = "<group>"; };
+		3A4DDC332661D15E00DC5177 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3A4DDC342661D15E00DC5177 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A4DDC352661D15E00DC5177 /* APIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIViewController.swift; sourceTree = "<group>"; };
+		3A4DDC362661D15E00DC5177 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		3A4DDC372661D15E00DC5177 /* FavouritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesViewController.swift; sourceTree = "<group>"; };
+		3A4DDC382661D15E00DC5177 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A4DDC392661D15E00DC5177 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FE0E70A71DC1A7E4C6BF2AD8 /* Pods-Jokes App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jokes App.release.xcconfig"; path = "Target Support Files/Pods-Jokes App/Pods-Jokes App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,8 +81,10 @@
 		3A16BE992658975400C687DB /* Jokes App */ = {
 			isa = PBXGroup;
 			children = (
+				3A4DDC2E2661D15E00DC5177 /* Post */,
+				3A4DDC312661D15E00DC5177 /* postDetails.swift */,
+				3A4DDC322661D15E00DC5177 /* View Controllers */,
 				3A16BE9A2658975400C687DB /* Jokes_AppApp.swift */,
-				3A16BE9C2658975400C687DB /* ContentView.swift */,
 				3A170B962658A186009115C4 /* User.swift */,
 				3A16BE9E2658975800C687DB /* Assets.xcassets */,
 				3A16BEA32658975800C687DB /* Info.plist */,
@@ -80,6 +100,29 @@
 				3A16BEA12658975800C687DB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A4DDC2E2661D15E00DC5177 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				3A4DDC2F2661D15E00DC5177 /* Post.xib */,
+				3A4DDC302661D15E00DC5177 /* Post.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		3A4DDC322661D15E00DC5177 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A4DDC332661D15E00DC5177 /* SignUpViewController.swift */,
+				3A4DDC342661D15E00DC5177 /* ViewController.swift */,
+				3A4DDC392661D15E00DC5177 /* SettingsViewController.swift */,
+				3A4DDC352661D15E00DC5177 /* APIViewController.swift */,
+				3A4DDC362661D15E00DC5177 /* PostViewController.swift */,
+				3A4DDC372661D15E00DC5177 /* FavouritesViewController.swift */,
+				3A4DDC382661D15E00DC5177 /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		47730FD046A6A769624AF8E6 /* Frameworks */ = {
@@ -161,6 +204,7 @@
 				3A16BEA22658975800C687DB /* Preview Assets.xcassets in Resources */,
 				3A16BE9F2658975800C687DB /* Assets.xcassets in Resources */,
 				3A16BEAA265897DC00C687DB /* GoogleService-Info.plist in Resources */,
+				3A4DDC3A2661D15E00DC5177 /* Post.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,9 +257,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A16BE9D2658975400C687DB /* ContentView.swift in Sources */,
+				3A4DDC402661D15E00DC5177 /* PostViewController.swift in Sources */,
+				3A4DDC3D2661D15E00DC5177 /* SignUpViewController.swift in Sources */,
 				3A16BE9B2658975400C687DB /* Jokes_AppApp.swift in Sources */,
+				3A4DDC3F2661D15E00DC5177 /* APIViewController.swift in Sources */,
+				3A4DDC3C2661D15E00DC5177 /* postDetails.swift in Sources */,
+				3A4DDC3E2661D15E00DC5177 /* ViewController.swift in Sources */,
 				3A170B972658A186009115C4 /* User.swift in Sources */,
+				3A4DDC412661D15E00DC5177 /* FavouritesViewController.swift in Sources */,
+				3A4DDC3B2661D15E00DC5177 /* Post.swift in Sources */,
+				3A4DDC422661D15E00DC5177 /* LoginViewController.swift in Sources */,
+				3A4DDC432661D15E00DC5177 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
